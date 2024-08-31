@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { cn } from "../lib/utils.js"; // Adjust the path to your utility functions
+import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 export const FloatingNav = ({ navItems, className }) => {
   const { scrollYProgress } = useScroll();
@@ -41,15 +43,16 @@ export const FloatingNav = ({ navItems, className }) => {
           {/* Leftmost items */}
           <div className="flex space-x-6">
             {navItems.map((navItem, idx) => (
-              <div
+              <ScrollLink
                 key={`navItem-${idx}`}
-                className={cn(
-                  "relative dark:text-black font-semibold items-center flex space-x-2 hover:text-[#7F56D9] cursor-default"
-                )}
+                to={navItem.path}
+                smooth={true}
+                duration={navItem.duration}
+                className="relative dark:text-black font-semibold items-center flex space-x-2 hover:text-[#7F56D9] cursor-pointer"
               >
                 <span className="block sm:hidden text-lg">{navItem.icon}</span>
                 <span className="hidden sm:block text-lg text-white hover:text-[#3f6a16]">{navItem.name}</span>
-              </div>
+              </ScrollLink>
             ))}
           </div>
 

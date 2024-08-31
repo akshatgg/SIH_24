@@ -7,7 +7,7 @@ function App() {
 
   return (
     <> 
-    <Home/>
+    
        <Navbar/>
        <Routing/>
     </>
