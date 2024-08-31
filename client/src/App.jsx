@@ -1,13 +1,16 @@
 
 import './App.css'
 import Home from './Components/Home/Home.jsx'
+import Navbar from './Components/Navbar/Navbar.jsx'
+import Routing from './Routing.jsx'
 function App() {
 
   return (
     <> 
-       <Home/>
+    <Home/>
+       <Navbar/>
+       <Routing/>
     </>
   )
 }
-
 export default App
