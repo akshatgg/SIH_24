@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact/Contact.jsx";
 import Herbals from "./Components/Herbals/Herbals.jsx"
 import Tabsd from "./Components/Herbals/Tabsd/Tabsd.jsx";
 import Home from "./Components/Home/Home.jsx"
@@ -14,7 +15,10 @@ function Routing(){
           <Element name="Herbals">
             <Herbals/>
           </Element>
-
+          
+          <Element name="Contact">
+            <Contact/>
+          </Element>
           
        
         </div>

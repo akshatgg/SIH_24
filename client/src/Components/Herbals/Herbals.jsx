@@ -25,7 +25,7 @@ function Herbals() {
       <h1 className=" text-2xl font-semibold flex items-start justify-center">Every herbs are verified</h1>
       </div>
 
-      <h1 className="mt-20 text-5xl font-serif  font-bold flex items-start justify-center">Featured Products</h1>
+      <h1 className="mt-20 text-5xl font-serif  font-bold flex items-start justify-center " data-aos="fade-up">Featured Products</h1>
    
 
 
