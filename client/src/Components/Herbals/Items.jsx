@@ -11,7 +11,7 @@ function Items({ title, description, image }) {
       >
         <CardItem
           translateZ="50"
-          className="text-2xl font-bold text-green-900 dark:text-green-900"
+          className="text-3xl font-bold text-green-900 dark:text-green-900"
         >
           {title}
         </CardItem>
@@ -29,7 +29,7 @@ function Items({ title, description, image }) {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-md font-semibold max-w-sm dark:text-green-800 mt-6"
+          className="text-neutral-500 text-2xl font-semibold max-w-sm dark:text-green-800 mt-6"
         >
           {description}
         </CardItem>

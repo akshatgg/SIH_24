@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 import React, { useEffect } from 'react';
 import 'aos/dist/aos.css';  // Import the AOS styles
-const Ayurveda = () => {
+const Homoeopathy = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
@@ -12,6 +12,7 @@ const Ayurveda = () => {
     });
   }, []);
     return (
+
       <div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 "  data-aos="fade-down">
           <Items
@@ -43,4 +44,4 @@ const Ayurveda = () => {
   };
   
 
-  export default Ayurveda;
+  export default Homoeopathy;
