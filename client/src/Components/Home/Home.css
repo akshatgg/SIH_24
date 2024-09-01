@@ -13,4 +13,21 @@
     width: 100vw;
     height: 100vh;
   }
+
+
+
+  .arrow-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .arrow-bottom {
+    bottom: 20px; /* Distance from the bottom */
+  }
+  
+  .arrow-upper {
+    bottom: 80px; /* Distance from the bottom */
+  }
+
   
