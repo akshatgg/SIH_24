@@ -1,0 +1,16 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home-container {
+    background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(46, 46, 46, 0.5)), url('../../assets/herbal4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+  
