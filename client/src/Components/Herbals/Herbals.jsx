@@ -15,23 +15,7 @@ function Herbals() {
       </div>
       <h1 className="mt-20 text-4xl flex items-start justify-center">Featured Products</h1>
 
-      {/* <div className="flex justify-center mt-10 gap-x-20"> */}
-        {/* <Items 
-          title="Sample Product"
-          description="This is a description of the sample product."
-          image={test1}  // Replace with the actual image URL
-        />   
-            <Items 
-          title="Sample Product"
-          description="This is a description of the sample product."
-          image={test1}  // Replace with the actual image URL
-        /> 
-            <Items 
-          title="Sample Product"
-          description="This is a description of the sample product."
-          image={test1}  // Replace with the actual image URL
-        />  */}
-      {/* </div> */}
+   
 
 
       <Tabsd/>
