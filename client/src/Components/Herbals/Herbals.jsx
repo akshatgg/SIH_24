@@ -13,8 +13,7 @@ function Herbals() {
           alt="Logo" 
         />
       </div>
-      <h1 className="mt-20 text-4xl flex items-start justify-center">Featured Products</h1>
-
+      <h1 className="mt-20 text-5xl font-serif  font-bold flex items-start justify-center">Featured Products</h1>
    
 
 
