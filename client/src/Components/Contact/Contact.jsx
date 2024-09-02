@@ -19,7 +19,7 @@ function Contact() {
   };
 
   return (
-    <div className="h-[100vh] bg-gradient-to-r from-green-800 via-green-700 to-green-900 flex items-center justify-center">
+    <div className="h-[100vh] bg-[#032917] flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-3xl">
         <h2 className="text-3xl font-bold text-center mb-6">Get in Touch</h2>
         <div className="flex justify-between mb-8">

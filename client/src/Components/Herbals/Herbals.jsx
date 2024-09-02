@@ -15,17 +15,17 @@ function Herbals() {
     });
   }, []);
   return (
-    <div className="h-[250vh] bg-gradient-to-r from-green-800 via-green-700 to-green-900">
+    <div className="h-[250vh] bg-gradient-to-r bg-[#0F4A2D]">
       <div className="mt-10 flex flex-col items-center justify-center " data-aos="fade-up">
         <img 
           src={logo} 
           className="w-auto h-32 object-contain" 
           alt="Logo" 
         />
-      <h1 className=" text-2xl font-semibold flex items-start justify-center">Every herbs are verified</h1>
+      <h1 className=" text-2xl text-white font-semibold flex items-start justify-center">Every herbs are verified</h1>
       </div>
 
-      <h1 className="mt-20 text-5xl font-serif  font-bold flex items-start justify-center " data-aos="fade-up">Featured Products</h1>
+      <h1 className="mt-20 text-5xl font-serif text-[#EEAE03]  font-bold flex items-start justify-center " data-aos="fade-up">Featured Products</h1>
    
 
 

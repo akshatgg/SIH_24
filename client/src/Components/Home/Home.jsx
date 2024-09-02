@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 function Home() {
   return (
     <div className="home-container">
-      <div className="arrow-container arrow-upper " name="Home">
+      <div className="arrow-container arrow-upper" name="Home" >
          <Link to="Herbals" spy={true} smooth={true} duration={250}>
         <FaChevronDown size={24} color="#fff" /> 
         </Link>

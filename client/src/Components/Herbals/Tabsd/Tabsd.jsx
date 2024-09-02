@@ -27,18 +27,18 @@ export function Tabsd() {
       title: "Ayurveda",
       value: "product",
       content: (
-        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-gray-400">
+        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-[#EEAE03] bg-[#032917]">
           <p>Ayurveda</p>
           <Ayurveda />
         </div>
       ),
-      style: activeTab === "product" ? "bg-gray-400 text-black" : "bg-gray-700 text-white",
+      style: activeTab === "product" ? " text-black" : "bg-gray-700 text-white",
     },
     {
       title: "Yoga & Naturopathy",
       value: "services",
       content: (
-        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-gray-400">
+        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-[#EEAE03] bg-[#032917]">
           <p>Yoga & Naturopathy</p>
           <Naturopathy />
         </div>
@@ -49,7 +49,7 @@ export function Tabsd() {
       title: "Unani",
       value: "playground",
       content: (
-        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-gray-400">
+        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-[#EEAE03] bg-[#032917]">
           <p>Unani</p>
           <Unani />
         </div>
@@ -60,7 +60,7 @@ export function Tabsd() {
       title: "Siddha",
       value: "content",
       content: (
-        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-gray-400">
+        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-[#EEAE03] bg-[#032917]">
           <p>Siddha</p>
           <Siddha />
         </div>
@@ -71,7 +71,7 @@ export function Tabsd() {
       title: "Sowa Rigpa & Homoeopathy",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-gray-400">
+        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-[#032917]">
           <p>Sowa Rigpa & Homoeopathy</p>
           <Homoeopathy />
         </div>
@@ -81,7 +81,7 @@ export function Tabsd() {
   ];
 
   return (
-    <div className="w-full md:w-[100rem] [perspective:1000px] relative b flex flex-col mx-auto items-center justify-center my-40 bg-gray-400 mb-7 rounded-full p-4 " data-aos="fade-down">
+    <div className="w-full md:w-[100rem] [perspective:1000px] relative b flex flex-col mx-auto items-center justify-center my-40 bg-[#0F4A2D] mb-7 rounded-full p-4 " data-aos="fade-down">
       <Tabs 
         tabs={tabs}
         tabClassName={`px-8 py-4 ml-5 text-lg md:text-2xl flex item-center justify-center font-semibold ${tabs.find(tab => tab.value === activeTab)?.style || "bg-gray-700 text-white"}`}

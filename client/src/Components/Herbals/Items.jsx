@@ -7,11 +7,11 @@ function Items({ title, description, image }) {
   return (
     <CardContainer className="inter-var">
       <CardBody
-        className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-gray-300 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6  border"
+        className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-[#0F4A2D] dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6  border"
       >
         <CardItem
           translateZ="50"
-          className="text-3xl font-bold text-green-900 dark:text-green-900"
+          className="text-3xl font-bold text-green-900 dark:text-[#EEAE03]"
         >
           {title}
         </CardItem>
@@ -29,7 +29,7 @@ function Items({ title, description, image }) {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-2xl font-semibold max-w-sm dark:text-green-800 mt-6"
+          className="text-neutral-100 text-2xl font-semibold max-w-sm dark:text-white mt-6"
         >
           {description}
         </CardItem>

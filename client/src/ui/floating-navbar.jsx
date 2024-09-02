@@ -32,11 +32,11 @@ export const FloatingNav = ({ navItems, className }) => {
             ease: "easeInOut",   // Use a smooth easing function
           }}
           className={cn(
-            "flex fixed top-10 inset-x-0 max-w-[90%] mx-auto border border-transparent dark:border-white/[0.2] rounded-full bg-[#7a9263] shadow-xl shadow-[#749356] z-[5000] px-6 py-4 items-center justify-between space-x-6",
+            "flex fixed top-10 inset-x-0 max-w-[90%] mx-auto border border-transparent dark:border-white/[0.2] rounded-full bg-[#053f24] shadow-xl shadow-[#749356] z-[5000] px-6 py-4 items-center justify-between space-x-6",
             className
           )}
         >
-          <div className="flex text-green-800 text-4xl font-semibold">
+          <div className="flex text-[#EEAE03] text-4xl font-semibold">
             NAVBAR
           </div>
 
@@ -51,7 +51,7 @@ export const FloatingNav = ({ navItems, className }) => {
                 className="relative dark:text-black font-semibold items-center flex space-x-2 hover:text-[#7F56D9] cursor-pointer"
               >
                 <span className="block sm:hidden text-lg">{navItem.icon}</span>
-                <span className="hidden sm:block text-lg text-white hover:text-[#3f6a16]">{navItem.name}</span>
+                <span className="hidden sm:block text-lg text-white hover:text-[#EEAE03]">{navItem.name}</span>
               </ScrollLink>
             ))}
           </div>
