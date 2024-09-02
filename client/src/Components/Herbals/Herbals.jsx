@@ -16,7 +16,7 @@ function Herbals() {
   }, []);
   return (
     <div className="h-[250vh] bg-gradient-to-r bg-[#0F4A2D]">
-      <div className="mt-10 flex flex-col items-center justify-center " data-aos="fade-up">
+      <div className="pt-32 flex flex-col items-center justify-center " data-aos="fade-up">
         <img 
           src={logo} 
           className="w-auto h-32 object-contain" 

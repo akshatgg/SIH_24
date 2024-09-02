@@ -71,7 +71,7 @@ export function Tabsd() {
       title: "Sowa Rigpa & Homoeopathy",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-white bg-[#032917]">
+        <div className="w-full overflow-hidden relative rounded-2xl p-10 text-2xl md:text-5xl font-bold text-[#EEAE03] bg-[#032917]">
           <p>Sowa Rigpa & Homoeopathy</p>
           <Homoeopathy />
         </div>

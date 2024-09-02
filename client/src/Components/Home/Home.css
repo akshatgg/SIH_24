@@ -1,33 +1,33 @@
 /* Global styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .home-container {
-    background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(46, 46, 46, 0.5)), url('../../assets/herbal4.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.home-container {
+  background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(46, 46, 46, 0.5)), url('../../assets/herbal4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.arrow-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-  .arrow-container {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .arrow-bottom {
-    bottom: 20px; /* Distance from the bottom */
-  }
-  
-  .arrow-upper {
-    bottom: 80px; /* Distance from the bottom */
-  }
+.arrow-upper {
+  bottom: 80px; /* Distance from the bottom */
+}
 
-  
+.text-cursive {
+  font-family: "Lucida Handwriting", cursive;
+}
