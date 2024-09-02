@@ -15,7 +15,7 @@ function Herbals() {
     });
   }, []);
   return (
-    <div className="h-[250vh]">
+    <div className="h-[250vh] bg-gradient-to-r from-green-800 via-green-700 to-green-900">
       <div className="mt-10 flex flex-col items-center justify-center " data-aos="fade-up">
         <img 
           src={logo} 
